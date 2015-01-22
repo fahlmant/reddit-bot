@@ -6,7 +6,7 @@ r = praw.Reddit(user_agent=user_agent)
 user_name = "pizzamanzoo"
 user = r.get_redditor(user_name)
 
-thing_limit = 10
+thing_limit = 99
 gen = user.get_submitted(limit=thing_limit)
 
 karma_by_subreddit = {}
