@@ -10,7 +10,7 @@ Here are some helpful hints:
 I am a bot, but feel free to reply to me. 
 
 If there is an issue or you are interested in contributing,
-my github is [here](https://github.com/fahlmant/reddit-bot).
+my github is [here](https://github.com/fahlmant/reddit-bot/tree/master/scrolls).
 Once there you can fork the repo and submit pull requests.
 Alternatively you can send a quick message to /u/pizzamanzoo.
 
