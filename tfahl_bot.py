@@ -21,7 +21,7 @@ while True:
     for submission in subreddit.get_new(limit=10):
         #Looks to see if words are in each submission
         op_text = submission.selftext.lower()
-        has_raw = any(string in op_text for string in prawWords)
+        has_praw = any(string in op_text for string in prawWords)
         #If the words are there, post reply
         if submission.id not in already_done and has_praw:
             #post reply
