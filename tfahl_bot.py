@@ -11,7 +11,7 @@ r.login()
 already_done = []
 
 #Words the bot will look for
-prawWords = ['test']
+prawWords = ['test', 'second tes t']
 
 
 while True:
@@ -31,7 +31,7 @@ while True:
             already_done.append(submission.id)   
             pass
         print "Sleeping"
-        time.sleep(1800)
+        time.sleep(600)
         print "Done sleeping"
 
     
