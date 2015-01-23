@@ -12,6 +12,7 @@ already_done = []
 
 #Words the bot will look for
 prawWords = ['test', 'second tes t']
+#Opens the post file and reads it into a var
 post_file = open("test.md", "r+")
 post_text = post_file.read(200)
 
@@ -29,6 +30,7 @@ while True:
             #post reply
             print "Posting reply"
             submission.add_comment(post_text)
+            #Add this post to the already done list
             already_done.append(submission.id)   
             pass
         print "Sleeping"
