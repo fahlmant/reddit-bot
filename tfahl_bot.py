@@ -12,7 +12,8 @@ already_done = []
 
 #Words the bot will look for
 prawWords = ['test', 'second tes t']
-
+post_file = open("test.md", "r+")
+post_text = post_file.read(200)
 
 while True:
     print "Looking for posts to reply to"
@@ -27,7 +28,7 @@ while True:
         if submission.id not in already_done and has_praw:
             #post reply
             print "Posting reply"
-            submission.add_comment("This is a test comment")
+            submission.add_comment(post_text)
             already_done.append(submission.id)   
             pass
         print "Sleeping"
