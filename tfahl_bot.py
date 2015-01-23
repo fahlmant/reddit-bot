@@ -15,6 +15,8 @@ prawWords = ['test']
 
 
 while True:
+    print "--------------------"
+    print "Looking for posts to reply to"
     #Set the subreddit name here
     subreddit = r.get_subreddit('newbie_bot_test')
     #looks at the 10 newest posts
@@ -25,7 +27,12 @@ while True:
         #If the words are there, post reply
         if submission.id not in already_done and has_praw:
             #post reply
+            print "Posting reply"
+            submission.add_comment("This is a test comment")
+            already_done.append(submission.id)   
             pass
-        time.sleep(2000)
+        print "Sleeping"
+        time.sleep(1800)
+        print "Done sleeping"
 
     
