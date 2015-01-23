@@ -11,7 +11,7 @@ r.login()
 already_done = []
 
 #Words the bot will look for
-prawWords['test']
+prawWords = ['test']
 
 
 while True:
@@ -25,7 +25,7 @@ while True:
         #If the words are there, post reply
         if submission.id not in already_done and has_praw:
             #post reply
-
+            pass
         time.sleep(2000)
 
     
