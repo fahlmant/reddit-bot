@@ -15,7 +15,6 @@ prawWords = ['test']
 
 
 while True:
-    print "--------------------"
     print "Looking for posts to reply to"
     #Set the subreddit name here
     subreddit = r.get_subreddit('newbie_bot_test')
