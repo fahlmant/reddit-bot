@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 #Newbie Bot created by pizzamanzoo
 import time
 import praw 
