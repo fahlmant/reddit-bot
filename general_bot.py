@@ -15,7 +15,7 @@ already_done = []
 prawWords = ['test', 'second tes t']
 #Opens the post file and reads it into a var
 post_file = open("test.md", "r+")
-post_text = post_file.read(200)
+post_text = post_file.read(2955)
 
 while True:
     print "Looking for posts to reply to"
