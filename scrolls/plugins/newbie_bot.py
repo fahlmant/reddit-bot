@@ -25,7 +25,7 @@ def reply(username, password, comments_done, posts_done):
     print(time.strftime("%H:%M:%S Inititing Newbie Bot")) 
 
     #Set the subreddit name here
-    subreddit = r.get_subreddit('newbie_bot_test')
+    subreddit = r.get_subreddit('scrolls')
     all_comments = subreddit.get_comments()
     flag = 1
 
