@@ -9,3 +9,7 @@ This bot looks in a given subreddit at the 10 newests posts. It searches each fo
 #Karma Breakdown
 
 This script is a one time run, which gets the karma breakdown for a given user
+
+#TODO
+
+I still need to implement a catch here
